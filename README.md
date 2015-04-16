@@ -7,7 +7,7 @@ Getting YouTube Data Feed as JSON Format
 getFeedBySpecificVideoID( "09R8_2nJtjg", "feed_by_specific_video_id" );
 Set first parameter as video id and second parameter as element id
 
-getFeedByKeyword( "Tailor Swift", "feed_by_keyword" );
+getFeedByKeyword( "Tailor Swift", "feed_by_keyword_id" );
 Set first parameter as searching keyword and second parameter as element id
 
 ### For Developing more
