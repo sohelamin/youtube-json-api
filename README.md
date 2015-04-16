@@ -1,2 +1,2 @@
-# youtube-json-api
+# YouTube JSON API
 YouTube JSON API
