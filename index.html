@@ -8,7 +8,7 @@
 				// Get YouTube Feed By Video ID
 				getFeedBySpecificVideoID( "09R8_2nJtjg", "feed_by_specific_video_id" );
 				// Get YouTube Feed By Keyword
-				getFeedByKeyword( "Tailor Swift", "feed_by_keyword" );
+				getFeedByKeyword( "Tailor Swift", "feed_by_keyword_id" );
 			});
 			function getFeedBySpecificVideoID( videoID, element ) {
 				$.getJSON('http://gdata.youtube.com/feeds/api/videos/'+videoID+'?v=2&alt=jsonc',function(data,status,xhr){
@@ -60,7 +60,7 @@
 		</div>
 		<hr>
 		<h1>Feed by Search Keyword</h1>
-		<div id="feed_by_keyword">
+		<div id="feed_by_keyword_id">
 			<table border="1">
 			    <thead>
 					<tr>
