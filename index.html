@@ -12,7 +12,7 @@
 			});
 			function getFeedBySpecificVideoID( videoID, element ) {
 				$.getJSON('http://gdata.youtube.com/feeds/api/videos/'+videoID+'?v=2&alt=jsonc',function(data,status,xhr){
-				    console.log(data.data);
+				    //console.log(data.data);
 				    var result = data.data;
 				    var eachrow = "<tr>"
 				                + "<td><a href='https://www.youtube.com/watch?v="+ result.id +"' target='_blank'><img src='" + result.thumbnail.sqDefault + "' /></a></td>"					    
