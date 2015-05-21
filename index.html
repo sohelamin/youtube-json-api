@@ -18,7 +18,7 @@
 
             function getFeedBySpecificVideoID( videoID, element ) {
                 $.getJSON('http://gdata.youtube.com/feeds/api/videos/'+videoID+'?alt=json',function(data,status,xhr){
-                    //console.log(data.data);
+                    console.log(data.data);
 
                     var result = data.data;
                     var eachrow = "<tr>"
