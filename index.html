@@ -17,7 +17,7 @@
             });
 
             function getFeedBySpecificVideoID( videoID, element ) {
-                $.getJSON('http://gdata.youtube.com/feeds/api/videos/'+videoID+'?alt=jsonc',function(data,status,xhr){
+                $.getJSON('http://gdata.youtube.com/feeds/api/videos/'+videoID+'?alt=json',function(data,status,xhr){
                     //console.log(data.data);
 
                     var result = data.data;
